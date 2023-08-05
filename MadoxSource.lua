@@ -8282,6 +8282,7 @@ Weapon:Toggle("Auto Observation Haki V2",_G.AutoObservationHakiV2,function(x)
 			end
 		end)
 	end)
+end
 
 if World3 then
 
