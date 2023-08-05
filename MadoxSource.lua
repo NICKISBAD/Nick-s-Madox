@@ -8403,8 +8403,9 @@ spawn(function()
 				wait(1)
 				repeat topos(CFrame.new(-13489, 332, -7925)) wait() until not _G.Auto_Holy_Torch or (game.Players.LocalPlayer.Character.HumanoidRootPart.Position-Vector3.new(-13489, 332, -7925)).Magnitude <= 10
 			end)
-		end)
-end
+		end
+	end
+end)
 
 
 if World3 then
