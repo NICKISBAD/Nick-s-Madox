@@ -8407,7 +8407,7 @@ spawn(function()
 		end
 	end
 end)
-
+end
 
 if World3 then
 
