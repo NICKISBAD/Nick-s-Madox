@@ -8085,7 +8085,7 @@ Weapon:Toggle("Auto Observation Haki V2",_G.AutoObservationHakiV2,function(x)
 				else
 					for i,v in pairs(game.Workspace:GetDescendants()) do
 						if v.Name == "Apple" or v.Name == "Banana" or v.Name == "Pineapple" then
-							v.Handle.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,1,10)
+							v.Handle.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 							wait()
 							firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart,v.Handle,0)    
 							wait()
@@ -8282,7 +8282,7 @@ Weapon:Toggle("Auto Observation Haki V2",_G.AutoObservationHakiV2,function(x)
 			end
 		end)
 	end)
-end
+
 
 if World3 then
 
