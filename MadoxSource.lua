@@ -8403,10 +8403,10 @@ spawn(function()
 				repeat topos(CFrame.new(-13336, 486, -6985)) wait() until not _G.Auto_Holy_Torch or (game.Players.LocalPlayer.Character.HumanoidRootPart.Position-Vector3.new(-13336, 486, -6985)).Magnitude <= 10
 				wait(1)
 				repeat topos(CFrame.new(-13489, 332, -7925)) wait() until not _G.Auto_Holy_Torch or (game.Players.LocalPlayer.Character.HumanoidRootPart.Position-Vector3.new(-13489, 332, -7925)).Magnitude <= 10
-			end)
+			end
 		end
-	end
-end)
+	end)
+   end)
 end
 
 if World3 then
@@ -8445,7 +8445,7 @@ Weapon:Seperator("Godhuman")
 Weapon:Toggle("Auto_God_Human",_G.Auto_God_Human,function(value)
  _G.Auto_God_Human = value
 end)
-end
+
 
 spawn(function()
     while task.wait() do
@@ -8528,6 +8528,7 @@ spawn(function()
 		end
 	end
 end)
+end
 
 if World1 or World2 then
     Race:Label("Only Available At Sea 3")
