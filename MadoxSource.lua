@@ -4262,8 +4262,8 @@ Setting:Toggle("Anti AFK",true,function(value)
  _G.AFK = value
  end)
 
-Setting:Button("No Effects (helps with lag)", function()
-	game.ReplicatedStorage.Effect:Destroy()
+Settings:Button("No FX", function()
+	game.ReplicatedStorage.Effect.Effect:Destroy()
 end)
 
 if not game:GetService("UserInputService").TouchEnabled and not game:GetService("UserInputService").KeyboardEnabled == false then
