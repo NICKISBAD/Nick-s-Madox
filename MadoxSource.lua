@@ -4262,6 +4262,10 @@ Setting:Toggle("Anti AFK",true,function(value)
  _G.AFK = value
  end)
 
+Setting:Button("No Effects (helps with lag)", function()
+	game.ReplicatedStorage.Effect:Destroy()
+end)
+
 if not game:GetService("UserInputService").TouchEnabled and not game:GetService("UserInputService").KeyboardEnabled == false then
 _G.DistanceMob = 20
 Setting:Slider("Farm Distance",1,100,20,function(value)
